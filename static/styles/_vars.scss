@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Russo+One&family=Ubuntu&display=swap');
+
+$primary-color: hsl(206, 23%, 6%);
+$third-color: hsl(206, 21%, 6%);
+
+$text-box-light:hsl(183, 14%, 75%);
+$text-box-dark: hsl(207, 23%, 33%, 1);
+
+$bg-dark: hsl(223, 17%, 21%);
+$bg-light: hsla(0, 0%, 91%, 1);
+
+$accent-orange: hsl(36, 95%, 58%);
+$accent-purple: hsl(300, 100%, 25%);
+
+$primary-font: 'Merriweather', serif;
+$secondary-font: 'Ubuntu', sans-serif;
+$third-font: 'Russo One', sans-serif;
+
+@mixin theme ($primary-font: 'Merriweather'){
+    font-family: $primary-font;
+    color: $primary-color
+}

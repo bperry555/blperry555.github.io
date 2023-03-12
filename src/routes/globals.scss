@@ -1,0 +1,7 @@
+@use '../../static/styles/vars.scss';
+
+body {
+    margin: 0 0;
+	background-color: vars.$bg-dark;
+	color: vars.$primary-color;
+}
