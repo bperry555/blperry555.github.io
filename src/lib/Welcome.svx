@@ -1,12 +1,10 @@
 ---
-title: Welcome
+title: Welcome Title
 author: Brian
 date: 2023-03-01
-layout: landingPage 
+layout: main
 ---
 
-## Welcome
+### Welcome
 
-This site is mostly being used as a testing ground for Javascript packages, mostly dealing with data visualisation. It is limited for now until I find an adequate replacement for my Heroku deployment.
-
-
+This site is mostly being used as a testing ground for Javascript packages, mostly dealing with data visualization. It is limited for now until I find an adequate replacement for my Heroku deployment.

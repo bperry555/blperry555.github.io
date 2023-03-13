@@ -1,6 +1,7 @@
 <script lang="ts">
-    import Welcome from '$lib/Welcome.svx';
+	import Welcome from '$lib/Welcome.svx';
 </script>
+
 <div class="splash-screen">
 	<section> 
 		<h1>Hello, I'm Brian <span>&#x1F44B;</span></h1>
@@ -16,8 +17,8 @@
 </div>
 
 <div class="welcome-post">
-    <Welcome />
 </div>
+<Welcome />
 
 <style lang="scss">
 	@use "../../static/styles/vars.scss";
@@ -40,6 +41,7 @@
 				font-family: vars.$secondary-font;
 			}
 			p {
+				padding-left: 1.5em;
 				font-family: vars.$primary-font;
 				font-weight: 400;
 				font-size: 1.5rem;
