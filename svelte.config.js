@@ -17,7 +17,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/blperry555'
+			base: dev ? '' : '/blperry555',
 		}
 	}
 };
