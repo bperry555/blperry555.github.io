@@ -12,9 +12,4 @@
 <slot />
 
 <style lang="scss">
-	@use "../../static/styles/vars.scss";
-	body {
-		background-color: vars.$bg-dark;
-		color: vars.$primary-color;
-	}
 </style>

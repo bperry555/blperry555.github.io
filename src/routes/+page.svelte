@@ -1,5 +1,9 @@
-<section>
-	<div class="box">
+<script lang="ts">
+	import Welcome from '$lib/Welcome.svx';
+</script>
+
+<div class="splash-screen">
+	<section> 
 		<h1>Hello, I'm Brian <span>&#x1F44B;</span></h1>
 		<p class="skills-list">
 			Problem Solver <span class="pipe">|</span> Data Analytics <span class="pipe">|</span> 
@@ -9,18 +13,22 @@
 			 Software Engineering <span class="pipe">|</span> Automation <span class="pipe">|</span> Web Development <span class="pipe">|</span>
 		</p>
 		<p class="location">San Francisco CA.</p>
-	</div>
-</section>
+	</section>
+</div>
+
+<div class="welcome-post">
+</div>
+<Welcome />
 
 <style lang="scss">
 	@use "../../static/styles/vars.scss";
 
-	section {
+.splash-screen {
 		display: grid;
 		grid-template-columns: 20% 60% 20%;
-		margin: 8em 10em 0 10em;
+		margin: 3em 0em 0 0em;
 
-		.box {
+		section {
 			grid-column: 2 / 3;
 			padding: 1rem 2rem;
 			border: 3px;
@@ -33,6 +41,7 @@
 				font-family: vars.$secondary-font;
 			}
 			p {
+				padding-left: 1.5em;
 				font-family: vars.$primary-font;
 				font-weight: 400;
 				font-size: 1.5rem;
