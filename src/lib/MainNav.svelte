@@ -48,7 +48,7 @@
 	</ul>
 	<ul class="nav__links">
 		<li>
-			<a href="/projects/">PROJECTS</a>
+			<a href="/">PROJECTS</a>
 		</li>
 		<li>
 			<a href="/">BLOG</a>
@@ -112,7 +112,7 @@
 </nav>
 
 <style lang="scss">
-	@use "../../static/styles/vars.scss";
+	@use "$lib/vars";
 	nav {
 		padding: 2.5px;
 		display: flex;

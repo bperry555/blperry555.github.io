@@ -1,5 +1,5 @@
 <script lang="ts">
-	import './globals.scss';
+	import '$lib/globals.scss';
 	import MainNav from '$lib/MainNav.svelte';
 </script>
 
