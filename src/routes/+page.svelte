@@ -10,23 +10,23 @@
 			Data Visualizations <span class="pipe">|</span>
 		</p>
 		<p class="skills-list">	
-			 Software Engineering <span class="pipe">|</span> Automation <span class="pipe">|</span> Web Development <span class="pipe">|</span>
+			Software Engineering <span class="pipe">|</span> Automation <span class="pipe">|</span> Web Development <span class="pipe">|</span>
 		</p>
 		<p class="location">San Francisco CA.</p>
 	</section>
 </div>
 
 <div class="welcome-post">
+	<Welcome />
 </div>
-<Welcome />
 
 <style lang="scss">
-	@use "../../static/styles/vars.scss";
+	@use "$lib/vars";
 
-.splash-screen {
-		display: grid;
-		grid-template-columns: 20% 60% 20%;
-		margin: 3em 0em 0 0em;
+	.splash-screen {
+			display: grid;
+			grid-template-columns: 20% 60% 20%;
+			margin: 3em 0em 0em 0em;
 
 		section {
 			grid-column: 2 / 3;
@@ -35,6 +35,7 @@
 			border-radius: 20px;
 			border-style: outset;
 			border-color: vars.$primary-color;
+			background-color: vars.$text-box-light;
 			box-shadow: 10px 10px 5px 2px;
 
 			h1 {
@@ -56,7 +57,6 @@
 				color: purple;
 				font-weight: bold;
 			}
-			background-color: vars.$text-box-light;
 		}
 	}
 </style>
