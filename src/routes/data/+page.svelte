@@ -6,7 +6,8 @@
 </script>
 
 <h1> HIHIHI </h1>
-<h2>{ data }</h2>
+<h2>{ data.page }</h2>
+<h3>{ data.sqlQuery[0].ID }</h3>
 
 <style lang="scss">
 </style>
