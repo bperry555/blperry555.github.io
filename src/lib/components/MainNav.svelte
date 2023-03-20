@@ -48,7 +48,7 @@
 	</ul>
 	<ul class="nav__links">
 		<li>
-			<a href="/">PROJECTS</a>
+			<a href="/projects">PROJECTS</a>
 		</li>
 		<li>
 			<a href="/">BLOG</a>
