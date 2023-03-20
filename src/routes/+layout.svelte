@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '$lib/globals.scss';
-	import MainNav from '$lib/MainNav.svelte';
+	import MainNav from '$lib/components/MainNav.svelte';
 </script>
 
 <svelte:head>
