@@ -1,7 +1,7 @@
 <script lang="ts">
-    export let title;
-    export let author;
-    export let date;
+    // export const title;
+    // export const author;
+    // export const date;
 </script>
 
 <div id="paper">
