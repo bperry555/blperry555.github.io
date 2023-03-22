@@ -1,5 +1,5 @@
-<script lang="ts">
-    export let author;
+<script lang="ts"> 
+    // export let author;
 </script>
 
 <div class="background">
